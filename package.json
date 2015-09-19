@@ -1,0 +1,23 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --compilers js:babel/register"
+  },
+  "dependencies": {
+    "react": "0.13.3",
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babelify": "6.3.0",
+    "browserify": "11.1.0",
+    "gulp": "3.9.0",
+    "gulp-sass": "2.0.4",
+    "vinyl-source-stream": "1.1.0",
+    "mocha": "2.3.0",
+    "chai": "3.2.0 "
+  }
+}
